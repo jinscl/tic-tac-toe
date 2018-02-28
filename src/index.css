@@ -1,0 +1,21 @@
+.status{
+	margin-bottom: 10px;
+}
+.square{
+	background:#fff;
+	border:1px solid #999;
+	width:34px;
+	height:34px;
+	margin-top:-1px;
+	margin-right: -1px;
+	padding:0;
+	float: left;
+}
+.square:focus{
+	outline: none;/*删除按钮点击后高亮的轮廓*/
+}
+.board-row:after{
+	content: "";
+	clear: both;
+	display: table;
+}
